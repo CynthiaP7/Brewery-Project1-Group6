@@ -21,3 +21,9 @@ function showPosition(position) {
   center: [-74.5, 40], // starting position [lng, lat]
   zoom: 9, 
   });
+
+  fetch('https://api.openbrewerydb.org/v1/breweries')
+  .then(response => response.json())
+  .then(data =>{
+    console.log(data);
+  })
