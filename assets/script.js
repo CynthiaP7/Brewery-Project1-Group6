@@ -2,7 +2,6 @@
 var x = document.getElementById("search");
 
 
-
 function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
