@@ -1,5 +1,8 @@
 
 var x = document.getElementById("search");
+
+
+
 function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
@@ -19,7 +22,8 @@ function showPosition(position) {
   container: 'map', // container ID
   style: 'mapbox://styles/mapbox/streets-v12', // style URL
   center: [-74.5, 40], // starting position [lng, lat]
-  zoom: 9, 
+  zoom: 10, 
+  attributionControl: false
   });
 
   fetch('https://api.openbrewerydb.org/v1/breweries')
@@ -27,3 +31,4 @@ function showPosition(position) {
   .then(data =>{
     console.log(data);
   })
+
