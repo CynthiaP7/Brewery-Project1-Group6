@@ -15,6 +15,13 @@ function showPosition(position) {
   "<br>Longitude: " + position.coords.longitude;
 }
 
+const brewLocation = 'https://api.openbrewerydb.org/v1/breweries';
+
+  fetch(brewLocation)
+  .then(response => response.json())
+  .then(data =>{
+    console.log(data);
+  })
 
   mapboxgl.accessToken = 'pk.eyJ1IjoiY2VlcDc4IiwiYSI6ImNsanhsem00YTAxaWEza3FlNGpoNGZxdDUifQ.-OEszcnYYKyOJyh4DNcC6A';
   const map = new mapboxgl.Map({
@@ -25,9 +32,10 @@ function showPosition(position) {
   attributionControl: false
   });
 
-  fetch('https://api.openbrewerydb.org/v1/breweries')
-  .then(response => response.json())
-  .then(data =>{
-    console.log(data);
-  })
+  
+
+
+
+
+
 
