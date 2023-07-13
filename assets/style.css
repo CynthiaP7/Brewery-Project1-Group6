@@ -1,0 +1,16 @@
+#map-container {
+    position: relative;
+    height: 180px;
+    width:600px;
+  }
+
+  #map {
+    position: relative;
+    height: inherit; 
+    width: inherit;
+  }
+  #space-above {
+    height: 200px;
+    background-color: #bee9f7;
+    width: 600px;
+  }
