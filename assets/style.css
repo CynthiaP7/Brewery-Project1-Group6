@@ -1,28 +1,13 @@
-/* .container {
-    margin-top: 300px;
+html,
+body {
+  background-image: url('brewery.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
 }
 
 
-
-#map-container {
-    position: relative;
-    height: 180px;
-    width:600px;
-  }
-
-  #map {
-    position: relative;
-    height: inherit; 
-    width: inherit;
-  }
-  #space-above {
-    height: 200px;
-    background-color: #bee9f7;
-    width: 600px;
-  } */
-
-
-  #map {
+#map {
     height: 400px;
     width: 400px;
     position: relative;
@@ -36,12 +21,6 @@
     margin: auto;
   }
   
-  /* 
-   * Optional: Makes the sample page fill the window. 
-   */
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
+
+
+ 
