@@ -35,6 +35,15 @@ img {
   padding: 5px;
   width: 150px;
 }
+
+.navbar-item {
+  color:white;
+}
+
+.navbar-link {
+  color:white;
+}
+
 @media screen and (max-width: 992px) {
   body {
     width: 50%;
@@ -45,12 +54,8 @@ img {
   }
 }
 
-<<<<<<< HEAD
-
-=======
-<<<<<<< Updated upstream
 /* Cards are stacked on top of each other at 768px or smaller */
->>>>>>> 3799ff2f3a9dc0b40a2d73f15925c43dc71e83ed
+
 @media screen and (max-width: 768px) {
   body {
     width: 100%;
@@ -60,12 +65,4 @@ img {
   }
 
 }
-=======
-.navbar-item {
-  color:white;
-}
 
-.navbar-link {
-  color:white;
-}
->>>>>>> Stashed changes
