@@ -44,7 +44,7 @@ img {
   }
 }
 
-/* Cards are stacked on top of each other at 768px or smaller */
+
 @media screen and (max-width: 768px) {
   body {
     width: 100%;
