@@ -34,4 +34,23 @@ img {
   padding: 5px;
   width: 150px;
 }
+@media screen and (max-width: 992px) {
+  body {
+    width: 50%;
+  
+  }
+  #map{
+    width: 50%;
+  }
+}
 
+/* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  #map{
+    width: 100%;
+  }
+
+}
