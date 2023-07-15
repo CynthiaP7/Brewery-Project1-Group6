@@ -4,6 +4,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-size: cover;
+
 }
 
 
@@ -44,6 +45,7 @@ img {
   }
 }
 
+<<<<<<< Updated upstream
 /* Cards are stacked on top of each other at 768px or smaller */
 @media screen and (max-width: 768px) {
   body {
@@ -54,3 +56,12 @@ img {
   }
 
 }
+=======
+.navbar-item {
+  color:white;
+}
+
+.navbar-link {
+  color:white;
+}
+>>>>>>> Stashed changes
