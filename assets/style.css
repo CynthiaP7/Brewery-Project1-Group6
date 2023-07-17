@@ -48,6 +48,28 @@ img {
   color:white;
 }
 
+h3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
+
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#save-button {
+  display: flex;
+  flex-wrap: wrap;
+  display: inline;
+
+}
+
 @media screen and (max-width: 992px) {
   body {
     width: 50%;
