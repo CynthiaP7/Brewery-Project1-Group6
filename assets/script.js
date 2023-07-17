@@ -113,7 +113,12 @@
     localStorage.setItem("subscriber", JSON.stringify(subscriber));
     console.log (subscriber);
 
+
+    var allInputs = document.querySelectorAll('input');
+allInputs.forEach(singleInput => singleInput.value = '');
+
   });
+
 
 
 }
