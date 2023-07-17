@@ -32,50 +32,58 @@
                   <div class="navbar-item has-dropdown is-hoverable">
                      <a class="navbar-item" href="#">Events</a>
 
-                     </div>
                   </div>
                </div>
-<!-- navbar -->
-               <div class="navbar-start">
-                  <div class="navbar-item">
-                     <div class="field is-grouped">
-                        <p class="control">
-                           <a class="bd-tw-button button" data-social-network="Google plus" href="https://myaccount.google.com/">
-                              <span class="icon">
-                                 <i class="fab fa-google-plus-square fa-2x"></i>
-                              </span>
-                              <a class="navbar-item" href="https://myaccount.google.com/"></a>
-                        </p>
-                        <p class="control">
-                           <a class="bd-tw-button button" data-social-network="Twitter" href="https://twitter.com/i/flow/login">
-                              <span class="icon">
-                                 <i class="fab fa-twitter fa-2x"></i>
-                              </span>
-                              <a class="navbar-item" href="https://twitter.com/i/flow/login"></a>
-                        </p>
-                        <p class="control">
-                           <a class="bd-tw-button button" data-social-network="facebook" href="https://www.facebook.com/login/">
-                              <span class="icon">
-                                 <i class="fab fa-facebook fa-2x"></i>
-                              </span>
-                              <a class="navbar-item" href="https://www.facebook.com/login/"></a>
-                        </p>
-                        </p>
-                        <p class="control">
-                           <a class="bd-tw-button button" data-social-network="Instagram" href="https://www.instagram.com/accounts/login/">
-                              <span class="icon">
-                                 <i class="fab fa-instagram fa-2x"></i>
-                              </span>
-                              <a class="navbar-item" href="https://www.instagram.com/accounts/login/"></a>
-                        </p>
+            </div>
+            <!-- navbar -->
+            <div class="navbar-start">
+               <div class="navbar-item">
+                  <div class="field is-grouped">
+                     <p class="control">
+                        <a class="bd-tw-button button" data-social-network="Google plus" target="_blank"
+                           rel="noopener noreferrer" href="https://myaccount.google.com/">
+                           <span class="icon">
+                              <i class="fab fa-google-plus-square fa-2x"></i>
+                           </span>
+                           <a class="navbar-item" href="https://myaccount.google.com/"></a>
+                     </p>
+                     <p class="control">
+                        <a class="bd-tw-button button" data-social-network="Twitter" target="_blank"
+                           rel="noopener noreferrer" href="https://twitter.com/i/flow/login">
+                           <span class="icon">
+                              <i class="fab fa-twitter fa-2x"></i>
+                           </span>
+                           <a class="navbar-item" href="https://twitter.com/i/flow/login"></a>
+                     </p>
+                     <p class="control">
+                        <a class="bd-tw-button button" data-social-network="facebook" target="_blank"
+                           rel="noopener noreferrer" href="https://www.facebook.com/login/">
+                           <span class="icon">
+                              <i class="fab fa-facebook fa-2x"></i>
+                           </span>
+                           <a class="navbar-item" href="https://www.facebook.com/login/"></a>
+                     </p>
+                     </p>
+                     <p class="control">
+                        <a class="bd-tw-button button" data-social-network="Instagram" target="_blank"
+                           rel="noopener noreferrer" href="https://www.instagram.com/accounts/login/">
+                           <span class="icon">
+                              <i class="fab fa-instagram fa-2x"></i>
+                           </span>
+                           <a class="navbar-item" href="https://www.instagram.com/accounts/login/"></a>
+                     </p>
 
 
-               </div>
+                  </div>
       </nav>
    </div>
-   <h3 id="search-box">Search Breweries Here (by State)</h3>
+   <h2>
+      <img src="./assets/font_logo.png">
+   </h2>
+   
+   <h5 id="search-box">Search Breweries Here (by State)</h5>
 
-  
+
 
    <div class="row"> </div>
    <form class="col s12"> </form>
@@ -87,8 +95,8 @@
    </div>
    <div id="map"></div>
 
-   <footer> 
-      <h3>Subscribe for Promotions and Discounts</h3> 
+   <footer>
+      <h3>Subscribe for Promotions and Discounts</h3>
       <form>
          <ul>
             <li>
@@ -103,25 +111,26 @@
          <button id="save"> Join the Crew</button>
       </form>
    </footer>
-   
-      <!-- <div id='map' style='width: 400px; height: 300px;'></div> -->
 
-      <!-- prettier-ignore -->
-      <script>
-         (g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })({
-            key: "AIzaSyDRaLOh9LOU971UrEgYIsPUrSXjJUkaYUM",
-            v: "weekly",
-            // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
-            // Add other bootstrap parameters as needed, using camel case.
-         });
-      </script>
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
-         integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
+   <!-- <div id='map' style='width: 400px; height: 300px;'></div> -->
 
-      <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
-      <!-- <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script> -->
-      <script src="./assets/script.js"></script>
-      <body>
+   <!-- prettier-ignore -->
+   <script>
+      (g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })({
+         key: "AIzaSyDRaLOh9LOU971UrEgYIsPUrSXjJUkaYUM",
+         v: "weekly",
+         // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
+         // Add other bootstrap parameters as needed, using camel case.
+      });
+   </script>
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
+
+   <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+   <!-- <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script> -->
+   <script src="./assets/script.js"></script>
+
+   <body>
 
 </html>

@@ -29,6 +29,10 @@ body {
   color: white;
   font-size: 30px;
 }
+h2{
+  display: flex;
+  justify-content: center;
+}
 
 img {
   border-radius: 4px;
