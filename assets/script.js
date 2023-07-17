@@ -98,14 +98,24 @@
       }
     }
 
-    var name = document.getElementById("input-name");
-    var email = document.getElementById("input-email");
+    var name = document.querySelector("#first-name");
+    var email = document.querySelector("#email");
+    var saveButton = document.getElementById("save");
 
     saveButton.addEventListener("click", function(event) {
       event.preventDefault();
+
+    var subscriber = {
+      subscriberName: name.value.trim(),
+      subscriberEmail: email.value.trim(),
+    }
+    
+    localStorage.setItem("subscriber", JSON.stringify(subscriber));
+    console.log (subscriber);
+
   });
 
-  
+
 }
   
   
