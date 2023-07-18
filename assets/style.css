@@ -4,6 +4,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-size: cover;
+  color:white;
 
 }
 
@@ -68,6 +69,10 @@ footer ul {
   flex-wrap: wrap;
   display: inline;
 
+}
+
+ul {
+  text-align:center;
 }
 
 @media screen and (max-width: 992px) {
