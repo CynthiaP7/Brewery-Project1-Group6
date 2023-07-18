@@ -5,6 +5,7 @@ body {
   height: 100vh;
   background-size: cover;
   color:white;
+  background-color: ;
 
 }
 
@@ -109,6 +110,15 @@ li {
   #map{
     width: 50%;
   }
+  .navbar-item{
+    color:#36454F
+  }
+  .navbar-link{
+color:#36454F
+  } 
+  #banner-image{
+    width:50%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -118,5 +128,19 @@ li {
   #map{
     width: 100%;
   }
+<<<<<<< Updated upstream
 
 }
+=======
+  .navbar-item{
+    color:#36454F
+  }
+  .navbar-link{
+color:#36454F
+  } 
+  #banner-image{
+    width:100%;
+  }
+}
+
+>>>>>>> Stashed changes
