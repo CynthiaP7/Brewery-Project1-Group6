@@ -117,9 +117,9 @@
     var allInputs = document.querySelectorAll('input');
 allInputs.forEach(singleInput => singleInput.value = '');
 
+ 
+Swal.fire('Welcome to the Crew!')
   });
-
-
 
 }
   
