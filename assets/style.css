@@ -5,8 +5,7 @@ body {
   height: 100vh;
   background-size: cover;
   color:white;
-  background-color: ;
-
+  background-attachment: fixed;
 }
 
 
@@ -128,10 +127,6 @@ color:#36454F
   #map{
     width: 100%;
   }
-<<<<<<< Updated upstream
-
-}
-=======
   .navbar-item{
     color:#36454F
   }
@@ -143,4 +138,3 @@ color:#36454F
   }
 }
 
->>>>>>> Stashed changes
