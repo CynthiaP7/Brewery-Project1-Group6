@@ -34,7 +34,8 @@
     After you have CORRECTLY typed in a state's name, press the 'Discover' button to find breweries
     in that state. After, press one of the red pins on the map for the name and address
     of that brewery.
-
+    
+![Uploading image.png…]()
 
 # Development: 1
 
