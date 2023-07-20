@@ -15,7 +15,7 @@ fetch(brewLocation)
   })
   .catch(error => {
     console.error(error);
-    alert("Failed to fetch brewery data.");
+    Swal.fire("Failed to fetch brewery data.");
   });
 
 // Initialize and add the map
@@ -41,7 +41,7 @@ async function initMap(breweries) {
     const searchQuery = searchInput.value.trim().toLowerCase();
 
     if (searchQuery === "") {
-      alert("Please enter a state.");
+      Swal.fire("Please enter a state.");
       return;
     }
 
@@ -60,6 +60,7 @@ async function initMap(breweries) {
   }
 
   function showBreweries(breweries) {
+    console.log(breweries);
     breweries.forEach(brewery => {
       try {
         const marker = new google.maps.Marker({
@@ -69,7 +70,7 @@ async function initMap(breweries) {
         });
 
         const infoWindow = new google.maps.InfoWindow({
-          content: `<p><strong>${brewery.name}</strong><br>${brewery.street}<br>${brewery.city}, ${brewery.state} ${brewery.postal_code}</p>`,
+          content: `<p><strong>${brewery.name}<br>${brewery.address_1}<br>${brewery.city}, ${brewery.state} ${brewery.postal_code}</strong></p>`,
         });
 
         marker.addListener("click", () => {
