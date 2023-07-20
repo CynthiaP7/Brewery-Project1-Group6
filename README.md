@@ -8,8 +8,8 @@
 
 # Our Company
 
-    Brews and Crews was the culmination of desire and practicality. With our wonderful GoogleMapsTM powered GPS, you can find up to 
-    50 breweries across the 48 continuous states of good -ol America, letting you appreciate all that America has to offer. 
+    Brews and Crews was the culmination of desire and practicality. With our wonderful GoogleMaps(TM) powered GPS, you can find up to 
+    50 breweries across the states of good -ol America, letting you appreciate all that America has to offer. 
     With convienence.
 
 
@@ -24,13 +24,23 @@
     Tae Chung, Developer(Dev), (index.html, CSS, Javascript)
 
 # Installation
+    Access the website by typing in its address in the address bar. No installation required.
 
+# Usage 
+
+    This brewery API is designed to find up to 50 different breweries across the USA. 
+    To use this website, locate the search bar. To assist, we have placed a warm-gold sign 
+    labeled "'Search Breweries Here' directly above it. 
+    After you have CORRECTLY typed in a state's name, press the 'Discover' button to find breweries
+    in that state. After, press one of the red pins on the map for the name and address
+    of that brewery.
 
 
 # Development: 1
 
-    First Cynthia Pian laid the groundwork by setting up the repository for our website, https://github.com/CynthiaP7/Brewery-Project1-Group6. 
-    Then, Developer Tae set up the basic code for the index.html, while Develoepr Emmanuel did the same for CSS and Javascript.
+    First Cynthia Pian laid the groundwork by setting up the repository for our website, 
+    https://github.com/CynthiaP7/Brewery-Project1-Group6. Then, Developer Tae set up the basic code 
+    for the index.html, while Develoepr Emmanuel did the same for CSS and Javascript.
     And then the Trio found the geolocation and brewery APIs.
 
 # Development: 2
@@ -47,8 +57,12 @@
 # Credits
 
     GoogleMAPs API 
-    bulma (CSS framework)
+    Bulma (CSS framework)
     Open Brewery DB https://www.openbrewerydb.org/
+    CSS
+    JavaScript
+    Canva
+    Sweetalert
 
 
 # License:
