@@ -34,6 +34,8 @@
     After you have CORRECTLY typed in a state's name, press the 'Discover' button to find breweries
     in that state. After, press one of the red pins on the map for the name and address
     of that brewery.
+
+    Deployed Site:  https://cynthiap7.github.io/Brewery-Project1-Group6/
     
 ![image](https://github.com/CynthiaP7/Brewery-Project1-Group6/assets/122586416/29c87d98-2d8b-43ec-8e50-0258126fe88a)
 
