@@ -8,8 +8,10 @@
 
 # Our Company
 
-    Brews and Crews was the culmination of desire and practicality. With our wonderful API, you can find up to 
-    50 breweries across the 48 continuous states of good -ol America, letting you appreciate
+    Brews and Crews was the culmination of desire and practicality. With our wonderful GoogleMapsTM powered GPS, you can find up to 
+    50 breweries across the 48 continuous states of good -ol America, letting you appreciate all that America has to offer. 
+    With convienence.
+
 
 # The Trio of Devs
 
@@ -20,6 +22,10 @@
     Emmanuel Barroso, Developer(Dev) (CSS, Javascript, index.html)
 
     Tae Chung, Developer(Dev), (index.html, CSS, Javascript)
+
+# Installation
+
+
 
 # Development: 1
 
@@ -38,5 +44,13 @@
     (thus hard to see), the navbar was manipulated to turn the text white.
     The other texts were turned white by adding color:white; to the style.css 'body' file.
 
-    
-g
+# Credits
+
+    GoogleMAPs API 
+    bulma (CSS framework)
+    Open Brewery DB https://www.openbrewerydb.org/
+
+
+# License:
+
+Non-profit purposes only. All rights reserved.
