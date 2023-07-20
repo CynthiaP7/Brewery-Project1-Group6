@@ -51,7 +51,7 @@ async function initMap(breweries) {
     });
 
     if (filteredBreweries.length === 0) {
-      alert("No breweries found in this location.");
+      Swal.fire("No breweries found in this location.");
       return;
     }
 
@@ -77,7 +77,7 @@ async function initMap(breweries) {
         });
       } catch (error) {
         console.error(error);
-        alert("No breweries found in this location.");
+        Swal.fire("No breweries found in this location.");
       }
     });
   }
